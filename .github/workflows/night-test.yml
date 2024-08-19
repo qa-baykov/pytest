@@ -2,7 +2,7 @@ name: test-compare-stock-symbols
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Runs every day at 8 AM UTC / 1 AM PDT
+    - cron: '0 15 * * *'  # Runs every day at 8 AM UTC / 1 AM PDT
   workflow_dispatch: 
     inputs:
       run_option:
